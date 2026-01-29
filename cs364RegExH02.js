@@ -27,7 +27,7 @@ const regex06 = /\b(01|02|03|04|04|06|07|08|09|10|11|12)\/[0|3][0-9]\/\d{4}\b/
 const regex07 = /\b\S{4}\b/
 
 //8: to find sequences where any character is repeated three or more times 
-const regex08 = ""
+const regex08 = /\b.{3,}\b/
 
 //9: match URLs starting with http:// or https://
 const regex09 = /\bhttp:\/\/\S+|https:\/\/\S+\b/
